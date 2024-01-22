@@ -1,0 +1,11 @@
+p {
+    background-color: orange;
+    position: relative;
+    top: 100px;
+}
+.posisi-relative {
+     background-color: yellow;
+      position: relative; 
+     left: 50px; 
+      top: 50px; 
+}

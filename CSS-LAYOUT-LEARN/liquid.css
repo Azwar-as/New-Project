@@ -1,0 +1,46 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#content{
+    overflow: auto;
+}
+.header {
+text-align: center;
+}
+#feature img {
+width: 30%;
+}
+#nav,#feature,#footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: orange;
+}
+#nav li {
+    list-style-type: none;
+    display: inline;
+}
+
+.column1,.column2,.column3{
+    background-color: orange;
+    width: 29%;
+    float: left;
+    margin-left:  2.5%;
+    margin-right: 2.5%;
+    padding-left: 1%;
+}
+.column1{
+    margin-left: 0px;
+}
+.column3{
+    margin-right: 0px;
+}
+
+
+#content h3{
+    text-align: center;
+} 

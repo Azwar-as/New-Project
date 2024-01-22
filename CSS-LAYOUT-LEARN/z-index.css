@@ -1,0 +1,17 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+.index {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: orange;
+    z-index: 3;
+}
+.container {
+    position: relative;
+    top: 50px;
+    z-index: 2;
+}

@@ -1,0 +1,42 @@
+* {
+    font-family: sans;
+    box-sizing: border-box;
+}
+.header {
+background-color: lightslategrey;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 10px;
+height: 100px;
+z-index: 2;
+}
+.header h1 {
+    margin-left: 35%;
+}
+.container {
+    position: relative;
+    top: 100px;
+    max-width: 700px;
+    margin:0px auto 0px auto;
+    z-index: 1;
+}
+.kolom-konten {
+    width: 500px;
+    float: left;
+}
+.container h2 {
+    font-size: 20px;
+}
+.kolom-menu{
+   
+    background-color: gray;
+    width: 140px;
+    margin-left: 10px;
+    padding: 10px;
+    float: left;
+}
+.kolom-menu ul {
+    list-style-type: none;
+}

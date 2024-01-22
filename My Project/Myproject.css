@@ -1,0 +1,140 @@
+html,
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: rgb(45, 45, 58);
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    font-family: sans-serif;
+    font-size: large;
+    display: flex;
+    font-size: 35px;
+    padding-left: 4%;
+}
+
+.firstname {
+    text-decoration: none;
+    color: rgb(255, 192, 20);
+    font-weight: 800;
+}
+
+.lastname {
+    text-decoration: none;
+    color: rgb(179, 177, 177);
+    font-weight: 550;
+}
+
+.option {
+    display: flex;
+    padding: 26px;
+
+    padding-right: 30px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.option>li {
+    list-style-type: none;
+}
+
+.option>li>a {
+    text-decoration: none;
+    color: rgb(255, 192, 20);
+    background-color: rgb(104, 102, 102);
+    font-size: 20px;
+    background-color: rgb;
+    padding: 7px;
+    border-radius: 40px;
+}
+
+.judul-article {
+    border-radius: 20px;
+    background-color: rgb(75, 73, 73);
+    margin: 2%;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 8px;
+
+
+}
+
+.wrapper1 {
+    margin: 1%;
+}
+
+.article-content {
+    margin: 2%;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background-color: rgb(95, 92, 92);
+    border-radius: 20px;
+}
+
+.wrapper2 {
+    margin: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.waiting {
+    color: rgb(21, 0, 214);
+    font-weight: bold;
+}
+
+.mypicture {
+    width: 20%;
+
+}
+
+.quotes {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+
+.html-content {
+    background-color: rgb(121, 112, 112);
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    margin-bottom: 4%;
+}
+
+.css-content {
+    background-color: rgb(121, 112, 112);
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    margin : auto;
+    margin-bottom: 4%;
+    
+}
+.js-content{
+    background-color: rgb(121, 112, 112);
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+}
+.todolist{
+    text-align: center;
+    text-decoration: underline;
+}
+.mymusic{
+    margin: 1%;
+}
